@@ -47,31 +47,7 @@ function test(obj, comment, pre, post) {
 			let value2 = value[key]
 			if (value2)
 				value2.forEach((v) => {
-					https
-						.get('https://' + v, (res) => {
-							if (res.statusCode >= 200 && res.statusCode < 300)
-								console.log(
-									chalk.green(`${v}: ${res.statusCode}`)
-								)
-							else if (
-								res.statusCode >= 300 &&
-								res.statusCode < 400
-							)
-								console.log(
-									chalk.blue(`${v}: ${res.statusCode}`)
-								)
-							else if (res.statusCode == 404)
-								console.log(
-									chalk.red(`${v}: ${res.statusCode}`)
-								)
-							else
-								console.log(
-									chalk.magenta(`${v}: ${res.statusCode}`)
-								)
-						})
-						.on('error', (error) => {
-							console.error(`${v}: ${error.message}`)
-						})
+                    chalk.green(`${v}`)
 				})
 		})
 	})

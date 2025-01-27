@@ -1,15 +1,15 @@
-! Title: d3Host List by d3ward
+! Title: d3Host List by gildas-ld
 ! Expires: 1 days
 ! Description: Simple and small list with the most popular advertising, tracking, analytics and social advertising services
-! Homepage: https://github.com/d3ward/toolz
+! Homepage: https://github.com/gildas-ld/toolz
 ! License: CC BY-NC-SA
-! Source: https://github.com/d3ward/toolz/blob/master/src/d3host.adblock
+! Source: https://github.com/gildas-ld/toolz/blob/master/src/d3host.adblock
 
-! This list cover all the tests on https://d3ward.github.io/toolz/adblock
+! This list cover all the tests on https://gildas-ld.github.io/toolz/adblock
 ! Type : Stable
-! Entries : 131
-! Updated On: 23/5/2024
-! Created by: d3ward
+! Entries : 174
+! Updated On: 27/1/2025
+! Created by: gildas-ld
 
 !============ Ads =============
 
@@ -18,12 +18,17 @@
 ||analyticsengine.s3.amazonaws.com^
 ||analytics.s3.amazonaws.com^
 ||advice-ads.s3.amazonaws.com^
+||ads.amazon.com^
+||amznadsystem.com^
+||adapi.amazon.com^
 
 ! --- Google Ads
 ||pagead2.googlesyndication.com^
 ||adservice.google.com^
 ||pagead2.googleadservices.com^
 ||afs.googlesyndication.com^
+||ads.google.com^
+||adwords.google.com^
 
 ! --- Doubleclick.net
 ||stats.g.doubleclick.net^
@@ -31,17 +36,39 @@
 ||static.doubleclick.net^
 ||m.doubleclick.net^
 ||mediavisor.doubleclick.net^
+||securepubads.g.doubleclick.net^
 
 ! --- Adcolony
 ||ads30.adcolony.com^
 ||adc3-launch.adcolony.com^
 ||events3alt.adcolony.com^
 ||wd.adcolony.com^
+||config.adcolony.com^
 
 ! --- Media.net
 ||static.media.net^
 ||media.net^
 ||adservetx.media.net^
+||bid.media.net^
+
+! --- Taboola
+||cdn.taboola.com^
+||trc.taboola.com^
+||taboola.com^
+||images.taboola.com^
+
+! --- Outbrain
+||widgets.outbrain.com^
+||log.outbrain.com^
+||track.outbrain.com^
+||traffic.outbrain.com^
+
+! --- AdRoll
+||d.adroll.com^
+||s.adroll.com^
+||static.adroll.com^
+||pixel.adroll.com^
+||adroll.com^
 
 
 !========= Analytics ==========
@@ -51,6 +78,7 @@
 ||click.googleanalytics.com^
 ||google-analytics.com^
 ||ssl.google-analytics.com^
+||www.google-analytics.com^
 
 ! --- Hotjar
 ||adm.hotjar.com^
@@ -85,8 +113,15 @@
 ||cs.luckyorange.net^
 ||settings.luckyorange.net^
 
-! --- Stats WP Plugin
-||stats.wp.com^
+! --- Adobe Analytics
+||omtrdc.net^
+||metrics.adobe.com^
+||assets.adobedtm.com^
+||experiencecloud.adobe.com^
+
+! --- Heap
+||heapanalytics.com^
+||cdn.heapanalytics.com^
 
 
 !======= Error Trackers =======
@@ -100,6 +135,11 @@
 ! --- Sentry
 ||browser.sentry-cdn.com^
 ||app.getsentry.com^
+||sentry.io^
+
+! --- Rollbar
+||api.rollbar.com^
+||cdn.rollbar.com^
 
 
 !====== Social Trackers =======
@@ -107,14 +147,19 @@
 ! --- Facebook
 ||pixel.facebook.com^
 ||an.facebook.com^
+||connect.facebook.net^
+||www.facebook.com^
 
 ! --- Twitter
 ||static.ads-twitter.com^
 ||ads-api.twitter.com^
+||analytics.twitter.com^
 
 ! --- LinkedIn
 ||ads.linkedin.com^
 ||analytics.pointdrive.linkedin.com^
+||px.ads.linkedin.com^
+||px.analytics.linkedin.com^
 
 ! --- Pinterest
 ||ads.pinterest.com^
@@ -125,9 +170,12 @@
 ! --- Reddit
 ||events.reddit.com^
 ||events.redditmedia.com^
+||pixel.redditmedia.com^
 
 ! --- YouTube
 ||ads.youtube.com^
+||www.youtube-nocookie.com^
+||stats.youtube.com^
 
 ! --- TikTok
 ||ads-api.tiktok.com^
@@ -137,6 +185,11 @@
 ||business-api.tiktok.com^
 ||ads.tiktok.com^
 ||log.byteoversea.com^
+
+! --- Snapchat
+||tr.snapchat.com^
+||ads.snapchat.com^
+||analytics.snapchat.com^
 
 
 !============ Mix =============
@@ -166,6 +219,7 @@
 ||webview.unityads.unity3d.com^
 ||config.unityads.unity3d.com^
 ||adserver.unityads.unity3d.com^
+||ads.unityads.unity3d.com^
 
 
 !============ OEMs ============
@@ -218,8 +272,9 @@
 ||books-analytics-events.apple.com^
 ||weather-analytics-events.apple.com^
 ||notes-analytics-events.apple.com^
+||ads.apple.com^
 
-*$3p,domain=d3ward.github.io
-/pagead.js$domain=d3ward.github.io
-@@*$redirect-rule,domain=d3ward.github.io
-d3ward.github.io##.textads
+*$3p,domain=gildas-ld.github.io
+/pagead.js$domain=gildas-ld.github.io
+@@*$redirect-rule,domain=gildas-ld.github.io
+gildas-ld.github.io##.textads

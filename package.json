@@ -3,6 +3,7 @@
   "version": "3.1.2",
   "description": "A set of accessible web tools",
   "scripts": {
+    "start": "webpack serve --config config/webpack.main.js",
     "dev": "webpack serve --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.prod.js",
     "build-list": "node src/script/build_list.js",
@@ -17,9 +18,9 @@
     "url": "https://github.com/d3ward/toolz/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
-    "babel-loader": "^9.1.2",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "babel-loader": "^9.2.1",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
@@ -27,19 +28,19 @@
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-webpack-plugin": "^4.0.1",
+    "eslint-webpack-plugin": "^4.2.0",
     "file-loader": "^6.2.0",
     "glob": "^10.3.0",
     "glob-all": "^3.3.1",
     "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.5.3",
-    "mini-css-extract-plugin": "^2.7.6",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
     "node-sass": "^9.0.0",
-    "postcss": "^8.4.31",
+    "postcss": "^8.5.1",
     "prettier": "^2.8.8",
     "purgecss-webpack-plugin": "^5.0.0",
-    "reachable-url": "^1.7.1",
-    "sass": "^1.63.6",
+    "reachable-url": "^1.8.1",
+    "sass": "^1.83.4",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
     "webpack-dev-server": "^4.15.1",
@@ -48,7 +49,7 @@
   "devDependencies": {
     "ejs": "^3.1.10",
     "template-ejs-loader": "^0.9.4",
-    "webpack": "^5.95.0",
+    "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
   }
 }
