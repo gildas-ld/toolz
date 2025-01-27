@@ -1,15 +1,15 @@
-# Title: d3Host List by d3ward
+# Title: d3Host List by gildas-ld
 # Expires: 1 days
 # Description: Simple and small list with the most popular advertising, tracking, analytics and social advertising services
-# Homepage: https://github.com/d3ward/toolz
+# Homepage: https://github.com/gildas-ld/toolz
 # License: CC BY-NC-SA
-# Source: https://github.com/d3ward/toolz/blob/master/src/d3host.txt
+# Source: https://github.com/gildas-ld/toolz/blob/master/src/d3host.txt
 
-# This list cover all the tests on https://d3ward.github.io/toolz/adblock
+# This list cover all the tests on https://gildas-ld.github.io/toolz/adblock
 # Type : Stable
-# Entries : 131
-# Updated On: 23/5/2024
-# Created by: d3ward
+# Entries : 174
+# Updated On: 27/1/2025
+# Created by: gildas-ld
 
 #============ Ads =============
 
@@ -18,12 +18,17 @@
 0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 analytics.s3.amazonaws.com
 0.0.0.0 advice-ads.s3.amazonaws.com
+0.0.0.0 ads.amazon.com
+0.0.0.0 amznadsystem.com
+0.0.0.0 adapi.amazon.com
 
 # --- Google Ads
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 adservice.google.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 afs.googlesyndication.com
+0.0.0.0 ads.google.com
+0.0.0.0 adwords.google.com
 
 # --- Doubleclick.net
 0.0.0.0 stats.g.doubleclick.net
@@ -31,17 +36,39 @@
 0.0.0.0 static.doubleclick.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 mediavisor.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
 
 # --- Adcolony
 0.0.0.0 ads30.adcolony.com
 0.0.0.0 adc3-launch.adcolony.com
 0.0.0.0 events3alt.adcolony.com
 0.0.0.0 wd.adcolony.com
+0.0.0.0 config.adcolony.com
 
 # --- Media.net
 0.0.0.0 static.media.net
 0.0.0.0 media.net
 0.0.0.0 adservetx.media.net
+0.0.0.0 bid.media.net
+
+# --- Taboola
+0.0.0.0 cdn.taboola.com
+0.0.0.0 trc.taboola.com
+0.0.0.0 taboola.com
+0.0.0.0 images.taboola.com
+
+# --- Outbrain
+0.0.0.0 widgets.outbrain.com
+0.0.0.0 log.outbrain.com
+0.0.0.0 track.outbrain.com
+0.0.0.0 traffic.outbrain.com
+
+# --- AdRoll
+0.0.0.0 d.adroll.com
+0.0.0.0 s.adroll.com
+0.0.0.0 static.adroll.com
+0.0.0.0 pixel.adroll.com
+0.0.0.0 adroll.com
 
 
 #========= Analytics ==========
@@ -51,6 +78,7 @@
 0.0.0.0 click.googleanalytics.com
 0.0.0.0 google-analytics.com
 0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.com
 
 # --- Hotjar
 0.0.0.0 adm.hotjar.com
@@ -85,8 +113,15 @@
 0.0.0.0 cs.luckyorange.net
 0.0.0.0 settings.luckyorange.net
 
-# --- Stats WP Plugin
-0.0.0.0 stats.wp.com
+# --- Adobe Analytics
+0.0.0.0 omtrdc.net
+0.0.0.0 metrics.adobe.com
+0.0.0.0 assets.adobedtm.com
+0.0.0.0 experiencecloud.adobe.com
+
+# --- Heap
+0.0.0.0 heapanalytics.com
+0.0.0.0 cdn.heapanalytics.com
 
 
 #======= Error Trackers =======
@@ -100,6 +135,11 @@
 # --- Sentry
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 app.getsentry.com
+0.0.0.0 sentry.io
+
+# --- Rollbar
+0.0.0.0 api.rollbar.com
+0.0.0.0 cdn.rollbar.com
 
 
 #====== Social Trackers =======
@@ -107,14 +147,19 @@
 # --- Facebook
 0.0.0.0 pixel.facebook.com
 0.0.0.0 an.facebook.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 www.facebook.com
 
 # --- Twitter
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 ads-api.twitter.com
+0.0.0.0 analytics.twitter.com
 
 # --- LinkedIn
 0.0.0.0 ads.linkedin.com
 0.0.0.0 analytics.pointdrive.linkedin.com
+0.0.0.0 px.ads.linkedin.com
+0.0.0.0 px.analytics.linkedin.com
 
 # --- Pinterest
 0.0.0.0 ads.pinterest.com
@@ -125,9 +170,12 @@
 # --- Reddit
 0.0.0.0 events.reddit.com
 0.0.0.0 events.redditmedia.com
+0.0.0.0 pixel.redditmedia.com
 
 # --- YouTube
 0.0.0.0 ads.youtube.com
+0.0.0.0 www.youtube-nocookie.com
+0.0.0.0 stats.youtube.com
 
 # --- TikTok
 0.0.0.0 ads-api.tiktok.com
@@ -137,6 +185,11 @@
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 ads.tiktok.com
 0.0.0.0 log.byteoversea.com
+
+# --- Snapchat
+0.0.0.0 tr.snapchat.com
+0.0.0.0 ads.snapchat.com
+0.0.0.0 analytics.snapchat.com
 
 
 #============ Mix =============
@@ -166,6 +219,7 @@
 0.0.0.0 webview.unityads.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
 0.0.0.0 adserver.unityads.unity3d.com
+0.0.0.0 ads.unityads.unity3d.com
 
 
 #============ OEMs ============
@@ -218,3 +272,4 @@
 0.0.0.0 books-analytics-events.apple.com
 0.0.0.0 weather-analytics-events.apple.com
 0.0.0.0 notes-analytics-events.apple.com
+0.0.0.0 ads.apple.com
